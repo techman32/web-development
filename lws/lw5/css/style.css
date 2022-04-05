@@ -1,0 +1,145 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper
+{
+  max-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content
+{
+  flex: 1 1 auto;
+}
+
+a
+{
+  text-decoration: none;
+  color: unset;
+}
+
+.button
+{
+  background-color: black;
+  font: 600 16px/16px 'Montserrat';
+  color: white;
+  border-radius: 5px;
+  display: inline-block; /* del */
+}
+
+.pink-text
+{
+  color: #EE58B6;
+}
+
+/* ==================== header ==================== */
+
+.header__text
+{
+  font: 500 16px/20px 'Montserrat';
+  display: block;
+  margin-bottom: 1%; /* del */
+}
+
+.header__button
+{
+  padding: 19px 40px;
+}
+
+/* ==================== preview ==================== */
+
+.preview__title
+{
+  font: 600 100px/122px 'Montserrat';
+}
+
+.preview__text
+{
+  font: 400 26px/1.2 'Roboto Condensed';
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 1300px; /* del */
+}
+
+.preview__button
+{
+  padding: 19px 82.5px;
+}
+
+/* ==================== description ==================== */
+
+.description
+{
+  background-color: black;
+}
+
+.description__text
+{
+  font: 400 22px/1.2 'Roboto Condensed';
+  color: white;
+}
+
+/* ==================== deadline ==================== */
+
+.deadline__title
+{
+  font: 500 48px/61px 'Montserrat';
+}
+
+.deadline__subtitle
+{
+  font: 400 18px/24px 'Roboto Condensed';
+  color:rgba(0, 0, 0, 0.7);
+}
+
+/* ==================== powers ==================== */
+
+.powers__title
+{
+  font: 500 48px/59px 'Montserrat';
+}
+
+.powers__block
+{
+  width: 358px;
+  height: 190px;
+  margin: 30px;
+  background-color: black;
+  border-radius: 7px;
+}
+
+.block__container
+{
+  padding: 33px 48px 37px 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.powers__text
+{
+  font: 400 18px/21px 'Roboto Condensed';
+  color: white;
+  margin-top: 20px;
+}
+
+/* ==================== footer ==================== */
+
+.footer
+{
+  background-color: black;
+}
+
+.footer__container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0px;
+}
