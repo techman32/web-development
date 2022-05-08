@@ -1,145 +1,120 @@
-*
-{
-  margin: 0;
-  padding: 0;
-}
+/* ==================== Header ==================== */
 
-.wrapper
-{
-  max-height: 100%;
-  overflow: hidden;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.content
-{
-  flex: 1 1 auto;
-}
-
-a
-{
+.header__text {
   text-decoration: none;
-  color: unset;
-}
+  color: black;
 
-.button
-{
-  background-color: black;
-  font: 600 16px/16px 'Montserrat';
-  color: white;
-  border-radius: 5px;
-  display: inline-block; /* del */
-}
-
-.pink-text
-{
-  color: #EE58B6;
-}
-
-/* ==================== header ==================== */
-
-.header__text
-{
   font: 500 16px/20px 'Montserrat';
-  display: block;
-  margin-bottom: 1%; /* del */
 }
 
-.header__button
-{
+.button {
+  text-decoration: none;
+  color: white;
+
+  font: 600 16px/16px 'Montserrat';
+}
+
+.header__button {
+  max-width: 167px;
+  max-height: 17px;
+
+  background-color: black;
+  border-radius: 5px;
   padding: 19px 40px;
 }
 
-/* ==================== preview ==================== */
+/* ==================== Preview ==================== */
 
-.preview__title
-{
+.preview__title {
+  max-width: 745px;
+}
+
+.title {
   font: 600 100px/122px 'Montserrat';
 }
 
-.preview__text
-{
-  font: 400 26px/1.2 'Roboto Condensed';
-  color: rgba(0, 0, 0, 0.7);
-  margin-right: 1300px; /* del */
+.extra {
+  color: #EE58B6;
 }
 
-.preview__button
-{
+.preview__subtitle {
+  max-width: 545px;
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.7);
+
+  font: 400 26px/120% 'Roboto Condensed';
+}
+
+.preview__button {
+  max-width: 167px;
+  max-height: 17px;
+
+  background-color: black;
+  border-radius: 5px;
   padding: 19px 82.5px;
 }
 
-/* ==================== description ==================== */
+/* ==================== Description ==================== */
 
-.description
-{
+.description {
   background-color: black;
+  min-height: 398px;
 }
 
-.description__text
-{
-  font: 400 22px/1.2 'Roboto Condensed';
+.description__text {
   color: white;
+
+  font: 400 22px/120% 'Roboto Condensed';
 }
 
-/* ==================== deadline ==================== */
+/* ==================== Deadline ==================== */
 
-.deadline__title
-{
+.deadline__text {
+  color: rgba(0, 0, 0, 0.7);
+
+  font: 400 18px/135% 'Roboto Condensed';
+  max-width: 574px;
+}
+
+.deadline__title {
   font: 500 48px/61px 'Montserrat';
 }
 
-.deadline__subtitle
-{
-  font: 400 18px/24px 'Roboto Condensed';
-  color:rgba(0, 0, 0, 0.7);
-}
+/* ==================== Powers ==================== */
 
-/* ==================== powers ==================== */
-
-.powers__title
-{
+.powers__title {
   font: 500 48px/59px 'Montserrat';
 }
 
-.powers__block
-{
-  width: 358px;
-  height: 190px;
-  margin: 30px;
+.powers__block {
   background-color: black;
   border-radius: 7px;
+
+  padding: 32px 49px 37px 39px;
+  max-width: 270px;
+  max-height: 190px;
+
+  margin: 30px 0px;
 }
 
-.block__container
-{
-  padding: 33px 48px 37px 39px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.powers__text
-{
-  font: 400 18px/21px 'Roboto Condensed';
+.powers__info {
   color: white;
-  margin-top: 20px;
+
+  font: 400 18px/21px 'Roboto Condensed';
+  text-align: start;
 }
 
-/* ==================== footer ==================== */
+.powers__block_long {
+  padding: 33px 33px 37px 39px;
+  max-width: 286px;
+}
 
-.footer
-{
+/* ==================== Footer ==================== */
+
+.footer {
   background-color: black;
-}
-
-.footer__container
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 35px 0px;
+  text-align: center;
+  padding: 28px 0px;
 }

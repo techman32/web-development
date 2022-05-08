@@ -1,436 +1,204 @@
-*
-{
-  margin: 0;
-  padding: 0;
-}
+/* ==================== Header ==================== */
 
-.header
-{
-  width: 100%;
+.header {
+  max-width: 1680px;
+  margin: 30px auto 43px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header__logo
-{
-  margin-top: 27px;
-  margin-left: 122px;
+.header__navigation {
+  margin-left: 662px;
 }
 
-.header__nav-bar
-{
-  margin-top: 30px;
-  margin-right: 103px;
-  display: flex;
-  flex-grow: 1;
-  justify-content: flex-end;
-}
-
-.header__link
-{
-  margin-top: 4px;
-  font: normal 500 16px/0.8 'Montserrat';
-  color: #000;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.header__text
-{
+.header__text {
   text-decoration: none;
-  color: #000;
-}
-
-.text_what-will
-{
-  max-width: 168px;
+  color: black;
   margin-right: 87px;
+  font: 500 16px/20px 'Montserrat';
 }
 
-.text_questions
-{
-  max-width: 77px;
-  margin-right: 88px;
+.button {
+  text-decoration: none;
+  color: white;
+
+  font: 600 16px/16px 'Montserrat';
 }
 
-.text_author
-{
-  max-width: 51px;
-  margin-right: 99px;
-}
+.header__button {
+  max-width: 167px;
+  max-height: 17px;
 
-.header__button
-{
-  position: relative;
-  width: 247px;
-}
-
-.button-register
-{
-  height: 55px;
-  background: #05090c;
+  background-color: black;
   border-radius: 5px;
-  font: normal 600 16px/1 'Montserrat';
-  color: #fff;
-  border: none;
+  padding: 19px 40px;
 }
 
-.main
-{
-  margin-top: 30px;
+/* ==================== Preview ==================== */
+
+.preview {
+  max-width: 1580px;
+  min-height: 732px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.preview__title {
+  max-width: 745px;
+}
+
+.title {
+  font: 600 100px/122px 'Montserrat';
+  margin: 0;
+}
+
+.extra {
+  color: #EE58B6;
+}
+
+.preview__subtitle {
+  max-width: 545px;
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.7);
+
+  font: 400 26px/120% 'Roboto Condensed';
+}
+
+.preview__button {
+  max-width: 167px;
+  max-height: 17px;
+
+  background-color: black;
+  border-radius: 5px;
+  padding: 19px 82.5px;
+}
+
+/* ==================== Description ==================== */
+
+.description {
+  background-color: black;
+}
+
+.description__container {
+  min-height: 398px;
+  max-width: 1134px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description__block {
+  max-width: 337px;
+  text-align: center;
+}
+
+.description__block_small {
+  max-width: 303px;
+}
+
+.description__text {
+  font: 400 22px/120% 'Roboto Condensed';
+  color: white;
+}
+
+/* ==================== Deadline ==================== */
+
+.deadline__title {
+  font: 500 48px/61px 'Montserrat';
+  margin: 0;
+}
+
+.deadline__text {
+  font: 400 18px/135% 'Roboto Condensed';
+  color: rgba(0, 0, 0, 0.7);
+  margin: 26px 0px 0px 0px;
+
+  max-width: 574px;
+}
+
+.deadline__ones {
+  max-width: 1134px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+  margin-top: 72px;
+}
+
+.ones__info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: end;
+  margin-bottom: 116px;
 }
 
-.top
-{
-  max-width: 1700px;
+.deadline__again {
+  max-width: 1134px;
+  margin: 0 auto;
   display: flex;
-
+  justify-content: space-between;
 }
 
-.top__info
-{
-  max-width: 865px;
-  padding-left: 33px;
-  padding-top: 146px;
-  margin-right: 14px;
-}
-
-.top__button
-{
-  width: 332px;
-}
-
-.top__title
-{
-  max-width: 745px;
-  margin-top: 67px;
-  font: normal 600 100px/0.82 'Montserrat';
-  color: #000;
-}
-
-.top__text
-{
-  max-width: 545px;
-  margin-top: 41px;
-  font: normal 400 26px/1.2 'Roboto Condensed';
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.text_color
-{
-  color: #ee58b6;
-}
-
-.top__button
-{
-  margin-top: 46px;
-}
-
-.top__image
-{
-  margin-left: 34px;
-  max-width: 849px;
-}
-
-.short-description
-{
-  margin-top: 58px;
+.again__info {
   display: flex;
-  width: 100%;
-  background: #000;
+  flex-direction: column;
   justify-content: center;
 }
 
-.short-descritpion__content
-{
-  margin-bottom: 142px;
-  width: 1138px;
-  margin-top: 111px;
-  display: flex;
-  justify-content: space-between;
+/* ==================== Powers ==================== */
+
+.powers {
+  margin-bottom: 283px;
 }
 
-.short-description_text
-{
-  font: normal 400 22px/1.2 'Roboto Condensed';
-  color: #fff;
+.powers__title {
+  font: 500 48px/59px 'Montserrat';
   text-align: center;
 }
-.short-description__time
-{
-  width: 285px;
-  height: 145px;
-}
 
-.image-time
-{
-  margin-left: 122px;
-}
-
-.text-time
-{
-  margin-top: 17px;
-  width: 303px;
-}
-
-.short-description__notebook
-{
-  width: 337px;
-  height: 145px;
-}
-
-.image-notebook
-{
-  margin-left: 150px;
-}
-
-.text-notebook
-{
-  margin-top: 17px;
-  margin-left: 13px;
-  width: 337px;
-}
-
-.short-description__target
-{
-  width: 293px;
-  height: 145px;
-}
-
-.image-target
-{
-  margin-left: 125px;
-}
-
-.text-target
-{
-  margin-top: 17px;
-  margin-left: 4px;
-  width: 304px;
-}
-
-.blog
-{
+.powers__grid {
+  max-width: 1164px;
+  margin: 5px auto;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-
-}
-
-.blog__creation
-{
-  margin-top: 72px;
-  height: 520px;
-  display: flex;
-}
-
-.blog__finances_image
-{
-  margin-left: -9px;
-  max-width: 538px;
-  max-height: 476px;
-}
-
-.finances_content
-{
-  margin-top: 237px;
-  margin-left: 52px;
-}
-
-.title-creation
-{
-  width: 376px;
-}
-
-.blog__deadline
-{
-  margin-top: 34px;
-  margin-right: 188px;
-  width: 1135px;
-  height: 691px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.blog__blowing_image
-{
-  max-width: 377px;
-  max-height: 620px;
-  margin-left: 171px;
-}
-
-.deadline_content
-{
-  margin-top: 262px;
-}
-
-.title-deadline
-{
-  width: 386px;
-}
-
-.blog__title
-{
-  font: normal 500 48px/38px 'Montserrat';
-  color: #000;
-}
-.blog__text
-{
-  margin-top: 37px;
-  max-width: 574px;
-  font: normal 400 18px/24px 'Roboto Condensed';
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.about-course
-{
-  width: 1235px;
-  display: flex;
-  flex-direction: column;
-}
-
-.about-course-tiles
-{
-  margin-top: 59px;
-  margin-left: 60px;
-  width: 1164px;
-  display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.about-course__title
-{
-  margin-top: 65px;
-  margin-left: 349px;
-  width: 553px;
-  font: normal 500 48px/59px 'Montserrat';
-  text-align: center;
-  color: #000;
-}
-
-
-.about-course-box
-{
-  margin-right: 30px;
-  margin-bottom: 30px;
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  width: 358px;
-  height: 190px;
-  background: #000;
+.powers__block {
+  background-color: black;
   border-radius: 7px;
-}
 
-.about-course__text
-{
-  font: normal 400 18px/21px 'Roboto Condensed';
-  color: #fff;
-}
-
-.image_first
-{
-  margin-top: 34px;
-  margin-left: 39px;
-  max-width: 37px;
-}
-
-.first-step-text
-{
-  margin-top: 23px;
-  margin-left: 39px;
+  padding: 32px 49px 37px 39px;
   max-width: 270px;
+  max-height: 190px;
+
+  margin: 15px 15px;
 }
 
-.image_second
-{
-  margin-top: 33px;
-  margin-left: 39px;
-  max-width: 35px;
+.powers__info {
+  color: white;
+
+  font: 400 18px/21px 'Roboto Condensed';
+  text-align: start;
 }
 
-.second-step-text
-{
-  margin-top: 21px;
-  margin-left: 39px;
-  max-width: 270px;
-}
-
-.image_third
-{
-  margin-top: 33px;
-  margin-left: 39px;
-  max-width: 45px;
-}
-
-.third-step-text
-{
-  margin-top: 22px;
-  margin-left: 39px;
-  max-width: 239px;
-}
-
-.image_fourth
-{
-  margin-top: 34px;
-  margin-left: 39px;
-  max-width: 40px;
-}
-
-.fourth-step-text
-{
-  margin-top: 21px;
-  margin-left: 39px;
-  max-width: 260px;
-}
-
-.image_fifth
-{
-  margin-top: 34px;
-  margin-left: 41px;
-  max-width: 50px;
-}
-
-.fifth-step-text
-{
-  margin-top: 21px;
-  margin-left: 39px;
-  max-width: 210px;
-}
-
-.image_sixth
-{
-  margin-top: 34px;
-  margin-left: 40px;
-  max-width: 35px;
-}
-
-.sixth-step-text
-{
-  margin-top: 21px;
-  margin-left: 39px;
+.powers__block_long {
+  padding: 33px 33px 37px 39px;
   max-width: 286px;
 }
 
-.footer
-{
-  margin-top: 259px;
-  display: flex;
-  justify-content: center;
-  background: #000;
-}
+/* ==================== Footer ==================== */
 
-.footer__image
-{
-  margin-left: 18px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  max-width: 167px;
-  max-height: 108px;
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 28px 0px;
 }
