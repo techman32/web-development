@@ -1,0 +1,810 @@
+body
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: unset;
+}
+
+.navigation-text
+{
+    font: normal 500 16px/20px 'Montserrat';
+	color: #000;
+}
+
+.header__button-registration
+{
+    width: 167px;
+    height: 17px; 	
+	background: #05090c;
+	border-radius: 4.59px; 
+    font: normal 600 16px/16px 'Montserrat';
+	color: #fff;  
+    padding: 20px 40px 18px 40px; 
+    text-align: center;
+    margin-right: 103px;
+}
+
+.info__headline
+{
+    font: normal 600 100px/1.22 'Montserrat';
+    margin-top: 0px;
+    margin-left: 16px;
+}
+
+.text_extra
+{
+    color: #ee58b6;
+}
+
+.info__about
+{
+    max-width: 545px;
+    font: normal 400 26px/1.2 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -79px;
+    margin-left: 16px;
+}
+
+.info__button-registration
+{
+    width: 167px;
+	background: #05090c;
+	border-radius: 4.59px;
+    font: normal 600 16px/16px 'Montserrat';
+	color: #fff;   
+    padding: 20px 81px 19px 84px; 
+    margin-top: 45px;
+    margin-left: 16px;
+}
+
+.front-page__info
+{
+    margin-top: -19px;
+}
+
+
+.main__short-description
+{
+    width: 100%;
+    background: #000; 
+    padding: 128px 0 147px 0;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.panel__time
+{
+    width: 285px;
+    height: 145px;
+    text-align: center;
+    position: relative;
+    left: -4px;
+}
+
+.time__image
+{
+    margin: 5px 0px -5px 0px;
+    max-width: 60px;
+    width: 100%;
+}
+
+.time__text
+{
+    width: 303px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: -9px;
+}
+
+.panel__notebook
+{
+    width: 337px;
+    height: 132px;
+    text-align: center;
+}
+
+.notebook__image
+{
+    margin: 5px 1px -5px -1px;
+    max-width: 60px;
+    width: 100%;
+}
+
+.notebook__text
+{
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: 0px;
+}
+
+.panel__notebook
+{
+    margin-left: 4px;
+}
+
+.panel__target
+{
+    width: 293px;
+    height: 132px;
+    text-align: center;
+    margin-right: 4px;
+}
+
+.target__image
+{
+    margin: 5px -1px -5px 1px;
+    max-width: 60px;
+    width: 100%;
+}
+
+.target__text
+{
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    margin-left: -21px;
+}
+
+
+.deadline-headline
+{
+    font: normal 500 48px/1.26 'Montserrat';
+    color: #000;
+}
+
+.deadline-text
+{
+    font: normal 400 18px/24px 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.fail__headline
+{
+    max-width: 376px;
+}
+
+.fail__text
+{
+    max-width: 574px;
+    margin: -23px 0 23px 0;
+}
+
+.again__headline
+{
+    max-width: 386px;
+    height: 61px;
+}
+
+.again__text
+{
+    width: 574px;
+    height: 44px;
+    margin: -23px 0 23px 0;
+}
+
+
+.opportunities__headline
+{
+    width: 553px;
+    height: 59px;
+    font: normal 500 48px/59px 'Montserrat';
+    color: #000;
+    text-align: center;
+}
+
+.block-opportunities
+{
+    width: 358px;
+    height: 190px;
+    background: #000;
+    border-radius: 7.36px;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.opportunities-text
+{
+    width: 269.77px;
+    height: 51.5px;
+    font: normal 400 18px/21px 'Roboto Condensed';
+}
+
+.opportunities-content__first
+{
+    padding: 32px 0 0 39px;
+}
+
+.opportunities-content__second
+{
+    padding: 32px 0 0 40px;
+}
+
+.opportunities-content__third
+{
+    padding: 32px 0 0 39px;
+}
+
+.opportunities-content__fourth
+{
+    padding: 33px 0 0 39px;
+}
+
+.opportunities-content__fifth
+{
+    padding: 33px 0 0 40px;
+}
+
+.opportunities-content__sixth
+{
+    padding: 33px 0 0 39px;
+}
+
+.opportunities__first-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__second-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__third-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities__fourth-text
+{
+    margin-left: 1px;
+    margin-top: 16px;
+} 
+
+.opportunities__fifth-text
+{
+    margin-top: 16px;
+    margin-left: 1px;
+} 
+
+.opportunities__sixth-text
+{
+    margin-left: 1px;
+    margin-top: 17px;
+    width: 286px;
+}
+
+.footer
+{
+    background: #000;
+    padding: 35px 0 35.31px 0;
+    text-align: center;
+    margin-top: 197px;
+}
+
+.header
+{
+    margin: 14px 0;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+}
+
+.header-right-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.header__logo
+{
+    margin-top: -1px;
+    margin-left: 120px;
+    max-width: 203px;
+    width: 100%;
+}
+
+
+.header__navigation
+{
+    width: 469px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-right: 99px;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__front-page
+{
+    max-width: 1580px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.front-page__image
+{
+    margin-top: -4px;
+    margin-right: 28px;
+    max-width: 762px;
+    width: 100%;
+}
+
+.short-description__panel
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1137px;
+    margin-top: -22px;
+    margin-left: 25px;
+}
+
+.main__deadline
+{
+    max-width: 1136px;
+    width: 100%;
+    margin-top: -13px;
+}
+
+.deadline__fail
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: -19px;
+}
+
+.fail__paragrph
+{
+    margin-top: 84px;
+    margin-right: -9px;
+}
+
+.deadline__again
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: -19px;
+}
+
+.again__paragrph
+{
+    margin-top: -21px;
+    margin-left: 29px;
+}
+
+.again__image
+{
+    margin-top: -6px;
+    margin-right: 95px;
+    max-width: 377px;
+    width: 100%;
+}
+
+.main__opportunities
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 86px;
+    margin-left: 16px;
+}
+
+.opportunities-content_flex
+{
+    width: 1134px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -4px;
+    margin-left: 1px;
+}
+
+.footer__logo
+{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.fail__image
+{
+    max-width: 538px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1675px)
+{
+    .main__front-page
+    {
+        max-width: 1185px;
+    }
+
+    .main__front-page
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1241px)
+{
+    .header
+    {
+        flex-direction: column;
+    }
+
+    .header__logo
+    {
+        margin: auto;
+    }
+
+    .header__button-registration
+    {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1205px)
+{
+
+    .main__short-description
+    {
+        padding: 50px 0;
+    }
+
+    .short-description__panel
+    {
+        width: 340px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .short-description__panel div
+    {
+        margin: 20px 0;
+    }
+
+    .main__deadline
+    {
+        width: 600px;
+    }
+
+    .deadline__fail
+    {
+        flex-direction: column;
+    }
+
+    .deadline__again
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .opportunities-content_flex
+    {
+        width: 745px;
+    }
+
+    .main__deadline img
+    {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .header-right-content
+    {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .header__navigation
+    {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        width: auto;
+    }
+
+    .header__navigation a
+    {
+        margin: 10px 0;
+    }
+    
+    .header__logo
+    {
+        position: relative;
+        left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 980px)
+{
+    .info__headline
+    {
+        width: auto;
+    }
+
+    .opportunities-content_flex
+    {
+        width: 358px;
+    }
+
+    .front-page__image,
+    .fail__image,
+    .again__image
+    {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 630px)
+{
+    .deadline-headline,
+    .deadline-text,
+    .info__about,
+    .opportunities__headline
+    {
+        width: 100%;
+        height: auto;
+    }
+    
+    .info__about
+    {
+        margin-left: 0;
+    }
+
+    .main__deadline
+    {
+        width: auto;
+    }
+
+    .fail__paragrph
+    {
+        margin-right: 0;
+    }
+
+    .main__front-page img,
+    .main__opportunities
+    {
+        margin: auto;
+    }    
+
+    .fail__paragrph
+    {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    .block-opportunities
+    {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .block-opportunities div
+    {
+        max-width: 100%;
+        padding: 32px 39px;
+    }
+    
+    .info__headline 
+    {
+        font-size: 80px;
+    }
+
+    .opportunities-text
+    {
+        width: auto;
+    }
+
+    .info__button-registration
+    {
+        width: 167px;
+        text-align: center;
+        padding: 20px 40px 18px 40px;
+    }
+
+    .short-description__panel
+    {
+        width: 100%;
+    }
+
+    .short-description__panel p
+    {
+        width: 100%;
+    }
+
+    .short-description__panel div
+    {
+        width: 100%;
+        height: auto;
+        margin: 20px 0 20px 0;
+        padding: 0;
+    }
+
+    .opportunities-content_flex
+    {
+        width: 100%;
+        position: relative;
+        left: -1px;
+    }
+}
+
+.main__questionnaire
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-left: 9px;
+}
+
+.form-cell
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 21.58px 27px 21.58px 28px;
+    background: #FFFFFF;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #999;
+    width: 480px;
+    height: 64px;
+    font: normal 500 18px/1.2 'Montserrat';
+    position: relative;
+    top: -19px;
+    left: 11px;
+    margin-bottom: 2px;
+}
+
+.form__checkbox-text
+{
+    font: normal 400 16px/1.39 'Roboto Condensed';
+    position: relative;
+    top: -3px;
+    left: -20px;
+}
+
+.form__button
+{
+    padding: 21.58px 40.46px;
+    background: #000000;
+    border-radius: 5.39px;
+    font: normal 500 18px/1.23 'Montserrat';
+    color: #fff;
+    width: 480px;
+    height: 65px;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+.form__headline
+{
+    font: normal 500 26px/1.2 'Montserrat';
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+.form__activity
+{
+    padding: 10px 23px;
+
+}
+
+.form__checkbox 
+{
+	z-index: 10;
+    width: 22px;
+    height: 22px;
+	opacity: 0;
+    cursor: pointer;
+    position: relative;
+    left: 8px;
+    top: -7px;
+}
+.form__checkbox + label 
+{
+	position: relative;
+	padding-left: 28px;
+    position: relative;
+    top: -11px;
+}
+.form__checkbox + label::before {
+	content: '';
+    width: 22px;
+	height: 22px;
+
+	position: absolute;
+	top: -3px;
+	left: -1px;	
+    background-image: url(../img/checkbox_off.svg);	
+	transition: .2s;
+}
+.form__checkbox + label::after {
+	content: '';
+	transition: .2s;
+}
+.form__checkbox:checked + label::before {
+    background-image: url(../img/checkbox_on.svg);
+}
+
+select
+{
+    border-radius: 20px;
+}
+
+
+
+.survey-request
+{
+    margin: 52px 59px;
+}
+
+.request-cell
+{
+    padding: 22px 27px 22px 28px;
+    background: #FFFFFF;
+    border: 1.35px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 480px;
+    height: 64px;
+    font: normal 500 18px/1.2 'Montserrat';
+}
+
+.survey-request__button
+{
+    width: 480px;
+    background: #000;
+    border-radius: 5.39px;
+    color: #fff; 
+    margin-left: 49px;
+}
+
+.survey-viewer
+{
+    margin: 68px 59px;
+    font: normal 400 18px/1.35 'Roboto Condensed';
+}
+
+.survey-viewer p
+{
+    margin: 0;
+}
+
+select
+{
+    border-radius: 50%;
+}
