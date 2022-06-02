@@ -4,22 +4,22 @@ USE university;
 CREATE TABLE faculty
 (
 	id 				INT AUTO_INCREMENT 	NOT NULL,
-	name 			VARCHAR(255)		NOT NULL,
+	firstname 		VARCHAR(255)		NOT NULL,
 	PRIMARY KEY (id)
 ) DEFAULT CHARACTER SET utf8mb4
-  COLLATE `utf8mb4_unicode_ci`
+  COLLATE 'utf8mb4_unicode_ci'
   ENGINE = InnoDB
 ;
 
 CREATE TABLE class
 (
 	id 				INT AUTO_INCREMENT 	NOT NULL,
-	name 			VARCHAR(255)		NOT NULL,
+	firstname 		VARCHAR(255)		NOT NULL,
     faculty_id		INT,
     FOREIGN KEY (faculty_id) REFERENCES faculty(id),
 	PRIMARY KEY (id)
 ) DEFAULT CHARACTER SET utf8mb4
-  COLLATE `utf8mb4_unicode_ci`
+  COLLATE 'utf8mb4_unicode_ci'
   ENGINE = InnoDB
 ;
 
@@ -27,25 +27,25 @@ CREATE TABLE student
 (
 	id 				INT AUTO_INCREMENT 	NOT NULL,
 	surname 		VARCHAR(255)		NOT NULL,
-    name 			VARCHAR(255)		NOT NULL,
+    firstname 		VARCHAR(255)		NOT NULL,
     patronymic		VARCHAR(255)		NOT NULL,
     age				INT					NOT NULL,
     class_id		INT,
     FOREIGN KEY (class_id) REFERENCES class(id),
 	PRIMARY KEY (id)
 ) DEFAULT CHARACTER SET utf8mb4
-  COLLATE `utf8mb4_unicode_ci`
+  COLLATE 'utf8mb4_unicode_ci'
   ENGINE = InnoDB
 ;
 
-INSERT INTO faculty (name)
+INSERT INTO faculty (firstname)
 VALUES 
 	('ФИВТ'),
 	('ФУП'),
 	('ИЛП')
 ;
 
-INSERT INTO class (name, faculty_id)
+INSERT INTO class (firstname, faculty_id)
 VALUES
 	('А-1', 1),
     ('А-2', 1),
@@ -58,7 +58,7 @@ VALUES
     ('В-3', 3)
 ;
 
-INSERT INTO student (surname, name, patronymic, age, class_id)
+INSERT INTO student (surname, firstname, patronymic, age, class_id)
 VALUES
 	('Чернядьев', 		'Максим', 		'Владимирович', 	19, 1),
 	('Кармазанов', 		'Роман', 		'Сергеевич', 		19, 1),
@@ -77,7 +77,7 @@ VALUES
 	('Смирнов', 		'Роман', 		'Дмитриевич', 		21, 3),
 	('Подоплелов', 		'Дмитрий', 		'Алексеевич', 		19, 4),
 	('Иванов', 			'Артем', 		'Александрович', 	19, 4),
-	('Клочко', 			'Александр', 	'Александрович', 	20, 4),
+	('Клочко', 			'Александр', 	'Александрович', 	22, 4),
 	('Белов', 			'Никита', 		'Васильевич', 		19, 4),
 	('Игнатьев', 		'Владислав', 	'Дмитриевич', 		19, 4),
 	('Крюков', 			'Дмитрий', 		'Александрович', 	22, 5),

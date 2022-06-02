@@ -1,10 +1,10 @@
 SELECT
-	student.surname AS Фамилия,
-    student.name AS Имя,
-    student.patronymic AS Отчество,
-    class.name AS Группа
+	student.surname AS 'Фамилия',
+    student.firstname AS 'Имя',
+    student.patronymic AS 'Отчество',
+    class.firstname AS 'Группа'
 FROM 
 	student
     INNER JOIN class ON student.class_id = class.id
 WHERE
-	class.name = 'А-1';
+	class.firstname = 'А-1';
