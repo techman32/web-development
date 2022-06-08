@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="500">
+
+	<!-- Ноги -->
+	<rect x="433" y="368" width="138" height="30" fill="#228580"/> 
+	<path fill="#444046" d="M425 397 Q 500 387, 580 397 V 400 H 427"/> <!-- Ступни -->
+	<path fill="#ff6219" d="M428 265 Q 403 310, 400 340 H 433 L 425 370 Q 510 390, 580 365 V 340 H 603 Q 575 240, 565 265"/>
+
+	<!-- Обводка куртки -->
+	<g fill="transparent" stroke="black">
+		<line x1="500" y1="292" x2="500" y2="380"/>
+		<line x1="433" y1="343" x2="442" y2="315"/>
+		<line x1="570" y1="342" x2="563" y2="315"/>
+		<path d="M460 315 H 485 V 350 H 460 V 315 L 472 330 L 485 315"/>
+		<path d="M520 313 H 545 V 348 H 520 V 313 L 532 328 L 545 313"/>
+	</g>
+
+	<!-- Воротник -->
+	<g fill="#00ad52">
+		<path d="M426 266 H 578 Q 550 320 500 305 Q 450 320 428 272"/>
+	</g>
+
+	<!-- Голова -->
+	<ellipse fill="#ffeac1" cx="500" cy="215" rx="100" ry="85"/> 
+
+	<!-- Глаза -->
+	<g fill="white"> 
+		<ellipse cx="435" cy="56" rx="30" ry="36" transform="rotate(30, 175, 195)" />
+		<ellipse cx="493" cy="352" rx="30" ry="36" transform="rotate(-30, 235, 205)" />
+	</g>
+	<!-- Зрачки -->
+	<g fill="black">  
+		<circle cx="480" cy="200" r="4"/>
+		<circle cx="518" cy="200" r="4"/>
+	</g>
+
+	<!-- Руки -->
+	<g fill="#4dc43d"> 
+		<circle cx="415" cy="351" r="20"/>
+		<circle cx="430" cy="342" r="8" stroke="black"/>
+		<circle cx="590" cy="355" r="20"/>
+		<circle cx="575" cy="345" r="8" stroke="black"/>
+		<ellipse cx="400" cy="190" rx="20" ry="55" transform="rotate(20, 400, 190)" />
+		<ellipse cx="600" cy="190" rx="20" ry="55" transform="rotate(-20, 600, 190)" />
+		<rect x="400" y="80" width="200" height="80" rx="15" ry="15"/>
+	</g>
+
+	<!-- Обводка у ушей шапки -->
+	<g fill="transparent" stroke="black">
+		<path d="M400 150 Q 415 140 425 150"/>
+		<path d="M575 150 Q 590 140 600 150"/>
+	</g>
+
+	<!-- Козырек -->
+	<rect x="415" y="115" width="165" height="50" fill="#00ad52"/>
+
+	<!-- Зубы -->
+	<g fill="white" stroke="black">
+		<path d="M470 260 H 530 L 520 270 H 512 V 260 V 270 H 498 V 260 V 270 H 486 V 260 V 270 H 478 L 470 260"/>
+	</g>
+	
+	<!-- Рот -->
+	<path d="M477 270 L 500 285 L 521 270"/>
+</svg>
